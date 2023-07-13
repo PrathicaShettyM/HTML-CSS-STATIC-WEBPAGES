@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins"sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* bgc size - cover the entire space of web page  */
+}
+
+/*   1st NAVBAR CONTENTS */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    margin-top: 30px;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-style: normal;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 20px;
+    color:rgb(249, 246, 45);
+    line-height: 20px;
+}
+.logo,
+.list-item{
+    cursor: pointer;
+}
+
+.order-btn{
+    padding: 14px 36px;
+    background-color: rgb(235, 8, 65);
+    color: white;
+    font-size: 18px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 500;
+    border:none;
+    border-radius: 5%;
+    cursor: pointer;
+    line-height: 30px;
+}
+.hero-section{
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+    
+}
+
+.bold-content{
+    color:rgb(249, 246, 45);
+    font-size: 70px;
+    line-height: 117px;
+    font-family: "dela gothic one";
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+}
+.menu-btn{
+    
+    padding: 20px 45px;
+    background-color:rgb(235, 8, 65) ;
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "poppins";
+    font-style: normal;
+    border-radius: 7%;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;  
+}
+.scroll{
+    position: absolute;
+    right: 45px;
+    bottom: 10px;
+}
