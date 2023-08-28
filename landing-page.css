@@ -1,1 +1,64 @@
+/* css file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'roboto' ;
+}
 
+/* navigation bar */
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+.ul1{
+    margin-left: 46px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.ul2{
+    margin-top: -28px;
+    margin-left: 680px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.btn1{
+    height: 43px;
+    padding: 4px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.btn2{
+    height: 43px;
+    padding: 4px 18px;
+    border-radius: 20px;
+    font-size: 15px; 
+    background-color: rgb(252, 252, 8);
+}
+/* main content */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* written content */
+.Content{
+    margin-left: 174px;
+}
+.Content p{
+    font-size: 19px;
+}
+.Content h1{
+    font-size: 39px;
+}
+.btn3{
+    padding: 15px 30px;
+    background-color: yellow;
+    border-radius: 26px;
+    font-size: 15px;
+}
+/* image */
+.Img{
+    margin-top: 20px;
+}
