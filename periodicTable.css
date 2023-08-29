@@ -1,1 +1,70 @@
+.p1a{
+    display: flex;
+}
+.p1b{
+    display: flex;
+    margin-left: 1245px;
+}
+.p2a{
+    display: flex;
+}
+.p2b{
+    margin-left: 779px;
+    display: flex;
+    flex-direction: row;
+}
+.p3a{
+    display: flex;
+    align-items: flex-start;
+}
+.p3b{
+    margin-left: 779px;
+    display: flex;
+    flex-direction: row;
+}
+.p1,
+.p2,
+.p3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.prd2,
+.prd3{
+    height: 73px;
+    width: 73px;
+    background-color: yellowgreen;
+    border: 3px solid white;  
+}
+.prd1a{
+    height: 73px;
+    width: 73px;
+    background-color: yellowgreen;
+    border: 3px solid white;
+    display: flex;
+}
+.prd1b{
+    height: 73px;
+    width: 73px;
+    background-color: yellowgreen;
+    border: 3px solid white;
+    display: flex;
+}
+.p4,
+.p5,
+.p6,
+.p7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prd4,
+.prd5,
+.prd6,
+.prd7{
+    height: 73px;
+    width: 73px;
+    background-color: yellowgreen;
+    border: 3px solid white;
+}
