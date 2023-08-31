@@ -1,3 +1,30 @@
+*{
+    font-family: 'poppins';
+}
+/* aligning the boxes */
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aligning text to center */
+h1{
+    text-align: center;
+}
+h3{
+    margin-left: 27px;
+ 
+}
+
+/* 1st period */
 .p1a{
     display: flex;
 }
@@ -5,6 +32,19 @@
     display: flex;
     margin-left: 1245px;
 }
+.prd1a{
+    background-color: rgb(243, 5, 5);
+    height: 73px;
+    width: 73px;
+    }
+.prd1b{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(17, 9, 247);
+    border: 3px solid white;
+    display: flex;
+}
+/* 2nd period */
 .p2a{
     display: flex;
 }
@@ -13,6 +53,19 @@
     display: flex;
     flex-direction: row;
 }
+.prd2a{
+    height: 73px;
+    width: 73px;
+    background-color: orange;
+    border: 3px solid white;  
+}
+.prd2b{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(247, 9, 156);
+    border: 3px solid white;  
+}
+/* 3rd period */
 .p3a{
     display: flex;
     align-items: flex-start;
@@ -22,49 +75,135 @@
     display: flex;
     flex-direction: row;
 }
-.p1,
-.p2,
-.p3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.prd3a{
+    height: 73px;
+    width: 73px;
+    background-color: orange;
+    border: 3px solid white; 
+}
+.prd3b{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(247, 9, 156);
+    border: 3px solid white;
+}
+.prd3c{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(247, 247, 9);
+    border: 3px solid white;
+}
+/* 4th period */
+.prd4a{
+    height: 73px;
+    width: 73px;
+    background-color: orange;
+    border: 3px solid white; 
+}
+.prd4b{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(9, 247, 25);
+    border: 3px solid white;
+}
+.prd4c{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(247, 247, 9);
+    border: 3px solid white;
+}
+.prd4d{
+    height: 73px;
+    width: 73px;
+    background-color:rgb(247, 9, 156); 
+    border: 3px solid white;
+}
+/* 5th period */
+.prd5a{
+    height: 73px;
+    width: 73px;
+    background-color: orange;
+    border: 3px solid white; 
+}
+.prd5b{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(9, 247, 25);
+    border: 3px solid white;
+}
+.prd5c{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(247, 247, 9);
+    border: 3px solid white;
+}
+.prd5d{
+    height: 73px;
+    width: 73px;
+    background-color:rgb(247, 9, 156); 
+    border: 3px solid white;
 }
 
-.prd2,
-.prd3{
+/* 6th period */
+.prd6a{
     height: 73px;
     width: 73px;
-    background-color: yellowgreen;
-    border: 3px solid white;  
+    background-color: orange;
+    border: 3px solid white; 
 }
-.prd1a{
+.prd6b{
     height: 73px;
     width: 73px;
-    background-color: yellowgreen;
+    background-color: rgb(9, 247, 25);
     border: 3px solid white;
-    display: flex;
 }
-.prd1b{
+.prd6c{
     height: 73px;
     width: 73px;
-    background-color: yellowgreen;
+    background-color: rgb(247, 247, 9);
     border: 3px solid white;
-    display: flex;
 }
-.p4,
-.p5,
-.p6,
-.p7{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.prd6d{
+    height: 73px;
+    width: 73px;
+    background-color:rgb(247, 9, 156); 
+    border: 3px solid white;
 }
-.prd4,
-.prd5,
-.prd6,
+/* 7th period */
+.prd7a{
+    height: 73px;
+    width: 73px;
+    background-color: orange;
+    border: 3px solid white; 
+}
+.prd7b{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(9, 247, 25);
+    border: 3px solid white;
+}
+.prd7c{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(247, 9, 156);
+    border: 3px solid white;
+}
+.prd7d{
+    height: 73px;
+    width: 73px;
+    background-color:rgb(247, 45, 9); 
+    border: 3px solid white;
+}
+/* lanthanoids and actinoids */
+.prd6{
+    height: 73px;
+    width: 73px;
+    background-color: rgb(7, 171, 242);
+    border: 3px solid white;
+}
 .prd7{
     height: 73px;
     width: 73px;
-    background-color: yellowgreen;
+    background-color: rgb(5, 252, 174);
     border: 3px solid white;
 }
