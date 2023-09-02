@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables | HTML</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+       }
+    </style>
+</head>
+<body>
+  // project 1a
+    <img src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" height="300px">
+
+    <p>We will be learning the following things this week:</p>
+    <table class="table">
+        <tr>
+            <td><h3>Day 1</h3></td>
+            <td><h3>Day 2</h3></td>
+            <td><h3>Day 3</h3></td>
+            <td><h3>Day 4</h3></td>
+        </tr>
+        <tr>
+            <td><p>Linux 1</p></td>
+            <td><p>HTML</p></td>
+            <td><p>Linux 2</p></td>
+            <td><p>Linux 3</p></td>
+        </tr>
+        <tr>
+            <td><p>GiT 1</p></td>
+            <td><p>CSS</p></td>
+            <td><p>Git 2</p></td>
+            <td><p>Bootstrap</p></td>
+        </tr>
+    </table>
+    <p>If you want to contact me, please fill in this form:</p>
+    <label>Name : <input type="text"></label><br>
+    <label>Phone no. : <input type="number"></label><br>
+    <label>Email id : <input type="email"></label>
+
+    <h2>The following things are important to be a programmer</h2>
+    <ul>
+        <li>A problem solving mindset</li>
+        <li class="sm">Consistent
+            <ul>
+                <li>Clean code</li>
+                <li>Clean code</li>
+                <li>Clean code</li>
+            </ul>           
+        </li>
+        <li>Speed</li>
+    </ul>
+
+  // project 1b
+    <h2>Seminar Schedule</h2>
+    <table>
+        <tr>
+            <th rowspan="3"><h3>Day</h3></th> 
+            <th colspan="3"><h3>Seminar</h3></th>
+         </tr>
+        <tr>          
+            <th colspan="2"><h3>Schedule</h3></th>
+            <th rowspan="2"><h3>Topic</h3></th>
+         </tr>
+        <tr>
+           <th><h3>Begin</h3></th>
+           <th><h3>End</h3></th>
+        </tr>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8:00 a.m.</td>
+          <td rowspan="2">5:00 p.m.</td>
+          <td>Introduction to XML</td>  
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>  
+          </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td>8:00 a.m.</td>
+          <td>11:00 a.m.</td>
+          <td rowspan="2">Xpath</td>  
+        </tr>
+        <tr>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>  
+          </tr>
+          <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>  
+            <td>XSL Transformations</td>  
+          </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 a.m.</td>
+            <td>XSL Formatting objects</td>
+          </tr>
+    </table>
+</body>
+</html>
