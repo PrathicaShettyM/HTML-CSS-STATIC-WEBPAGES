@@ -7,4 +7,6 @@ this repository contains all the basic HTML5 and CSS3 static webpages
 5.Periodic Table
 6.Meditation Headphone - landing page
 7.Tables in HTML
+8.One Card mobile resopnsive Landing page
+9.Avatar portfolio webpage
 
