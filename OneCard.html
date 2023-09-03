@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneCard | Landing page</title>
+
+    <!-- linking css file -->
+    <link rel="stylesheet" href="./onecard.css">
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- font awesome - hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <nav class="navbar" id="myTopnav">
+        <div>
+            <img src="https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/b3e617dcc5341797f3dab8c75755f41e8afc7320/11%20Feb%202023/Real%20Estate/Icons/Logo.svg" alt="logo" width="150px">
+          
+        </div>
+        <div>  
+                <ul class="lists">
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <button>Login</button>
+                <a class="ham" href="hamicon"><img class="ham" height="60px" width="60px" src="https://previews.123rf.com/images/fokaspokas/fokaspokas1809/fokaspokas180900453/108562581-hamburger-menu-web-icon-black-on-white-background.jpg" alt="ham">
+                </a>                                
+            </div> 
+               
+    </nav>
+    <main class="main-landing">
+        <section class="left-sec">
+            <h2>Say Hi To</h2>
+            <h1>One Card</h1>
+            <h3>Co-branded Card Issuers:</h3>
+            <img src="https://www.getonecard.app/images/legal/Banking_partners_24thJan_dark__.png" alt="img" height="100px" width="280px">
+            <p>India's best metal credit card. Built with full-stack teck. Backed by the Principle of simplicity, transparency , and giving back control to the user.</p>
+        </section>
+
+        <section class="right-sec">
+            <video src="https://www.getonecard.app/images/say_hi_2x_d3_.mp4" height="700px" width="600px" autoplay="autoplay" loop="loop" muted="muted"></video>
+        </section>
+    </main>
+    <main class="description">
+        <h1>No Hidden Fees Ever</h1>
+        <br>
+        <h2>No Joining Fees.</h2>
+        <h2>No Annual Fees.</h2>
+        <h2>No Rewards Redemption Fees.</h2>
+    </main> 
+    
+    <footer class="Footer">
+
+        <div class="div1">
+            <h2>One Card</h2>
+            <br>
+            <p>India's best metal credit card. Built with full-stack teck. Backed by the principles of simplicity, transparency, and giving back control to the user.</p>
+        </div>
+
+        <div class="div2">
+            <h2>Navigation</h2>
+            <br>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Offers</li>
+            </ul>
+        </div>
+
+        <div class="div3">
+            <h2>Support</h2>
+            <br>
+            <ul>
+                <li>F.A.Q.</li>
+                <li>Cookies Policy</li>
+                <li>Terms Of Service</li>
+                <li>Support</li>
+            </ul>
+        </div>
+           
+        <div class="div4">
+            <h2>Newsletter</h2>
+            <br>
+            <input type="text" placeholder="Your email id">
+            <button>Subscribe</button>
+        </div>
+    </footer>
+    <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+            }
+    </script>
+</body>
+</html>
 
