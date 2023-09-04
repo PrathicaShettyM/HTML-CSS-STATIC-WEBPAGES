@@ -87,3 +87,82 @@
     color: white;
 }
 /* footer of the webpage */
+.Footer{
+    padding: 40px 40px;
+    display: flex;
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
+.Footer ul{
+    list-style: none;
+}
+.div1{
+    padding: 30px;
+    width: 40%;
+}
+.div2,
+.div3{
+    width: 20%;
+}
+.div4{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div4 input{
+padding: 10px;
+}
+.div4 button{
+padding: 10px;
+background-color: rgb(6, 138, 239);
+color: white;
+border: none;
+}
+
+/* to make it mobile responsive */
+@media screen and (max-width: 600px){
+    .navbar.ham {
+        visibility: visible;
+        float: right;
+        display: block;
+    }
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;      
+    }
+    .main-landing{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-sec,
+    .right-sec{
+        width: fit-content;
+        padding: 0;
+    }
+    .right-sec video{
+        height: 500px;
+        width: 400px;
+    }
+   .div1,
+   .div2,
+   .div3,
+   .div4{
+    width: fit-content;
+    padding: 0;
+   }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 500px) {
+    .navbar .lists,button {display: none;}
+    .ham {
+        visibility: visible;
+        margin-left: 200px;
+        float: right;
+        position: relative;
+    }
+    }
