@@ -1,1 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+/* navigation bar */
+.navbar{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+    background-color: rgb(27, 26, 26);
+}
+.navbar div {
+    display: flex;
+}
+.navbar div img{
+ margin-left: 5px;
+ margin-top: 6px;
 
+}
+.lists{
+    padding-top: 16px;
+    margin-left: 400px;
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar div button{
+ margin-left: 470px;
+ margin-top: 10px;
+ padding: 15px 36px;
+ background-color: #0716e8;
+ color: white;
+ font-weight: 700;
+ font-size: 15px;
+ border: none;
+ border-radius: 6px;
+}
+.ham{
+    visibility: hidden;
+}
+/* main langing page */
+.main-landing{
+    display: flex;
+}
+.left-sec{
+    width: 50%;
+    padding: 100px 70px;
+}
+.left-sec h1{
+    font-size: 60px;
+    color: rgb(7, 160, 242);
+}
+
+.left-sec h2{
+    font-size: 40px;
+}
+
+.left-sec h3{
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(7, 160, 242);
+}
+
+.left-sec p{
+    padding-top: 80px;
+    font-size: 20px;
+}
+.right-sec{
+    width: 50%;
+    padding-right: 50px;
+}
+.description{
+    background-color: rgb(17, 17, 17);
+    padding: 130px;
+  text-align: center;
+}
+.description h1{
+    color: blue;
+}
+.description h2{
+    color: white;
+}
+/* footer of the webpage */
