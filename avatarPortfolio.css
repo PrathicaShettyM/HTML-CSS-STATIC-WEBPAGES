@@ -71,3 +71,42 @@ nav ul li:hover{
     font-weight: 900;
     
 }
+.search-field{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 4px 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-left-section{
+    width: 60%;
+    padding: 0 8%;
+}
+.hero-left-section h1 {
+    
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.hero-left-section h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+}
+.hero-left-section p {
+    font-weight: 500px;
+    font-size: 30px;
+   
+}
+.hero-left-section p span{
+    font-weight: 700px;
+    font-size: 25px;
+    color:rgb(18, 155, 155) ;
+    
+}
