@@ -22,3 +22,52 @@ li{
 a{
     text-decoration: none; 
 }
+button{
+    background-color: rgb(9, 195, 208);
+    border: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 19px;
+    font-weight: 700;
+    width: fit-content;
+
+}
+.box{
+    border-radius: 19px;
+}
+button:hover{
+    background-color: rgb(6, 243, 6);
+    color:lightcyan ;
+    border: 1px solid black;
+
+}
+header{
+    padding: 15px 0;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.logo{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    
+}
