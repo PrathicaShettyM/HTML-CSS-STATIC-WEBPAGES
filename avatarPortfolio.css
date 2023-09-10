@@ -110,3 +110,25 @@ input{
     color:rgb(18, 155, 155) ;
     
 }
+.hero-right-section-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-right-section-img{
+    display: flexbox;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
