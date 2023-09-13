@@ -19,3 +19,16 @@ table tr td{
     padding: 20px 50px;
     border-bottom: 2px solid white;
 }
+/* for smaller screen sizes */
+@media screen and (max-width: 600px){
+    table{
+        margin: 30px;
+    }
+    table tr td{
+        padding: 16px 20px;
+        border-bottom: 2px solid white;
+    }
+    .c3{
+        display: none;
+    }
+}
