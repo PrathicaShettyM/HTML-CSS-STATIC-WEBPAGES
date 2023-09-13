@@ -1,1 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+/* for large screen sizes */
+h1{
+    margin: 70px;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: 50px;
+}
 
+table tr td{
+    padding: 20px 50px;
+    border-bottom: 2px solid white;
+}
