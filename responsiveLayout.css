@@ -1,1 +1,47 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h-1{
+    height: 100px;
+    width: 35%;
+    background-color: blue;
+}
+.h-2{
+    height: 100px;
+    width: 65%;
+    background-color: rgb(79, 13, 22);
+}
+.header{
+    display: flex;
+}
+.main-section{
+    height: 250px;
+    background-color: rgb(51, 48, 48);
+}
+.c-1,
+.c-2,
+.c-3{
+    height: 190px;
+    width: 33.33%;
+    background-color: rgb(60, 201, 211);
+}
+.cards{
+    display: flex;
+}
+.footer{
+    height: 70px;
+    background-color: #60506d;
+}
 
+@media screen and (max-width: 600px) {
+    .cards{
+       flex-direction: column;
+    }
+    .c-1,
+    .c-2,
+    .c-3{
+        width: 80vw;
+    }
+}
