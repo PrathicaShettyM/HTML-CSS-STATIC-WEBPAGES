@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+
+}
+body{
+    max-width: 1440px;
+    background-color: rgb(235, 241, 223);
+    overflow: hidden;
+    margin:auto ;
+}
+     /* css for navigation bar */
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}     
+nav img{
+    width: 153px;
+}
+nav ul{ 
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 55px;
+    font-weight: 600;
+}
+nav ul li:first-child{
+    font-weight: 700;
+    color: #20bc7e;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+    /* left section design  */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84vh;
+}
+main section{
+    width: 50%;
+}
+
+.left_content{
+    margin-left: 50px;
+    position: relative;
+}
+.top_angle{
+    width: 25px;
+}
+.left_content h1{
+    font-size: 60px;
+}
+.left_content p{
+    color: rgb(82, 80, 80);
+    font-size: 18px;
+    margin:20px 0; 
+}
+.bottom_angle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+.sthetoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+    
+}
+.mouse{
+    position: relative;
+    right: -30px;
+    bottom:0;
+    width: 30px;
+}
+
+.left_content button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(10, 203, 90);
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    margin-left: 100px;
+
+}
+      /* right section design */
+      .green_circle,
+      .orange_circle{
+        position: absolute;
+        right: 0;
+      }
+      .green_circle{
+        width: 25%;
+        bottom: 50px;
+      }
+      .orange_circle{
+        width: 30%;
+        bottom: 50px;
+      }
+      .doctor{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 90%;
+      }
