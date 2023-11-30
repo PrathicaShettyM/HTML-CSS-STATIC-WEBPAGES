@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+/* for navigation bar */
+
+.nav-bar {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:30px 80px;
+height: 90px;
+background-color: black;
+
+}
+.gen-info{
+flex-grow: 1;
+
+}
+   img{
+    height: 32px;
+    width: 90px;  
+       }
+.line{
+    width: 2px;
+    height: 90px;
+    background-color: white;
+    margin-left: 40px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    
+    gap: 40px;
+    list-style: none;
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    color: white;
+    margin-left: 40px;
+
+}
+.logo,
+    .list-item {
+cursor: pointer;
+    }
+
+.nav-button{
+    padding: 8px 28px;
+    background-color: purple;
+    border-radius: 9%;
+    font-size: 15px;
+    font-style: normal;
+    font-family: "poppins";
+    font-weight: 600;
+    border: none;
+
+    color: white;
+    line-height: 25px;
+    cursor: pointer;
+} 
+/* written content in the section */
+/* use "" for url of image or else it won't load it */
+
+.hero{
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_03(HTML+CSS)/assets/bg.png?raw=true ");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+.bold-content{
+    max-width: 850px;
+    margin: 0 auto;
+   line-height: 100px;
+    font-size: 80px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    padding-top: 170px;
+    text-align: center;
+
+}  
+.description{
+    
+    font-size: 25px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    color: white;
+    text-align: center;
+}
+.section-btn{
+
+    padding: 15px 20px;
+    background-color: purple;
+    color: white;
+    line-height: 45px;
+    font-size: 30px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 10%;
+    border: none;
+    margin-top: 65px;
+    cursor: pointer;
+
+}
+

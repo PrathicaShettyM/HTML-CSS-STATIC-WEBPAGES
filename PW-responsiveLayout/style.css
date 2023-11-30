@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(38, 2, 71);
+    color: white;
+}
+img:hover{
+    cursor: pointer;
+}
+nav{
+    margin: 18px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 17px;
+}
+
+img[alt="hamburger"]{
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+
+.home{
+    padding: 5px 5px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.introduction{
+    max-width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.writeup1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.dev h1 {
+   font-size: 50px;
+
+}
+.dev h3{
+    font-size: 28px;
+    color: yellow;
+}
+
+.project_sec{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_sec div h1{
+   font-size: 30px;
+}
+
+.divide-page{
+    
+    height: 10px;
+    width: 130px;
+    background-color: blue;
+    margin-bottom: 20px;
+      border-radius: 10px;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 40px;
+    
+}
+img[alt="waving hand"]{
+    height: 45px;
+}
+img[alt="pc-img"]{
+    width: 30vw;
+}
+img[alt="project-img"]{
+    width: 20vw;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-us{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.contact-us div h2{
+    font-size: 30px;
+}
+.contact{
+    height: 10px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img[alt="soc_med"]{
+    width: 30px;
+    
+}
+@media screen and (max-width: 570px) {
+    nav ul{
+        display: none;
+    }
+    img[alt="hamburger"]{
+        display: block;
+    }
+    .introduction{
+        display: flex;
+        flex-direction: column;
+    }
+    img[alt="pc"]{
+       width: 60vw;
+    }
+    .writeup1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       gap: 10px;
+       font-size: 18px;
+    }
+    .dev h1{
+    font-size: 40px;
+    }
+    .dev h3{
+        font-size:27px ;
+    }
+    .project-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    img[alt="project-img"]{
+        width: 55vw;
+    }
+    .project_sec div h1{
+        font-size: 36px;
+    }
+    .contact-us div h2{
+        font-size: 36px;
+    }
+    .contact{
+        height: 13px;
+        width: 180px;
+        background: blue;
+        border-radius: 18px;
+        margin-bottom: 18px;
+    }
+}
