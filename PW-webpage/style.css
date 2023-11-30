@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.contents{
+    margin: 0 auto;
+    padding: 0 120px;
+    max-width: 130rem;
+
+}
+.navbar-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.gen-info{
+   flex-grow: 1;
+   padding-left:70px ;
+  
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: black;
+}
+.list li:hover{
+    cursor: pointer;
+}
+.list li:hover{
+    color: rgb(63, 54, 236);
+}
+.nav-btn{
+    padding: 15px 30px;
+    background-color:rgb(90, 73, 138);
+    border:rgb(90, 73, 138) ;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight:700;
+    font-size: 17px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.leftsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+    width: 55%;
+}
+
+
+.main-text{
+    
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 75px;
+    color: rgb(90, 73, 138);
+}
+.main-text span{
+    color: rgb(103, 151, 182);
+}
+.description{
+    
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    color: hsl(0, 2%, 38%);
+    margin-top: 30px;
+}
+.services{
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: rgb(91, 30, 128);
+    font-size: 20px;
+    color: white;
+    border: rgb(91, 30, 128);
+    border-radius: 10%;
+    font-family: "poppins";
+    font-weight: 600;
+
+
+}
+.rightsection{
+width: 53%;
+}
