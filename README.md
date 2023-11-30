@@ -1,5 +1,5 @@
-# HTML-CSS-STATIC-WEBPAGES
-this repository contains all the basic HTML5 and CSS3 static webpages
+# HTML5 and CSS3 Static Webpages
+This repository contains all the basic HTML5 and CSS3 static webpages
 1. Avatar Portfolio
 2. BOAT headphone Landing Page
 3. OneCard Landing page
